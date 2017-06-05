@@ -13,6 +13,7 @@ type Config struct {
 	Port      uint16   // Server port
 	Username  string   // Username to assume
 	MoveTo    string   // Channel to move to upon joining
+	Webhook   string   // Webhook to post to
 	Channel   string   // Channel to watch
 	Threshold uint8    // Threshold of players before notifying
 	Interval  int      // How often to check
